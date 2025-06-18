@@ -89,7 +89,6 @@
   color: #070211;
   text-align: center;
   background: #F6E3E3;
-  padding: px;
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -154,9 +153,15 @@ span{
 }
 /* the-best-gift*/
 .the-best-gift{
-  text-align: center;
+  text-align: left;
 }
+.best-gift-container{
 
+}
+.best-gift-container img{
+  width: 300px;
+  height: 325px;
+}
 
 
 
