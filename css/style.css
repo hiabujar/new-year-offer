@@ -116,8 +116,8 @@ span{
 .div2{
   width: 400px;
   height: 260px;
-  padding: 50px;
 }
+  
 .div2 img{
   width: 220px;
   border: 5px solid red;
@@ -129,15 +129,33 @@ span{
   height: 260px;
 }
 
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-
-
-
-
-
-
+/* what-is-section */
+.what-is{
+  text-align: ;
+}
+.description{
+  width: 600px;
+  margin: auto;
+}
+.discount-container{
+  position: relative;
+  margin: 450px;
+}
+.image2{
+  width: 150px;
+  height: 350px;
+  position: absolute;
+  top: -400px;
+ 
+}
+.image1{
+  position: absolute;
+ transform: translate(1000px, -600px);
+}
+/* the-best-gift*/
+.the-best-gift{
+  text-align: center;
+}
 
 
 
