@@ -80,6 +80,8 @@
 .btn{
   background: red;
   color: white;
+  padding: 10px;
+  
 }
 
 /* place-date-time */
@@ -138,18 +140,21 @@ span{
 }
 .discount-container{
   position: relative;
-  margin: 450px;
-}
-.image2{
-  width: 150px;
-  height: 350px;
-  position: absolute;
-  top: -400px;
+  margin-top: 400px;
+  margin-bottom: 0;
  
 }
-.image1{
+.child{
   position: absolute;
- transform: translate(1000px, -600px);
+  translate: 100px;
+  top: -250px;
+  width: 500px;
+}
+.child2{
+  text-align: right;
+  margin-right: 100px;
+  translate: -70px -500px;
+
 }
 /* the-best-gift*/
 .the-best-gift{
@@ -163,12 +168,29 @@ span{
   height: 325px;
 }
 
+/* Subscribe section */
 
 
+.sub{
+  display: flex;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  background: #F2D6D6;
 
+}
+.sub input{
+  padding: 10px;
+  border-radius: 10px;
+}
 
-
-
+.btn-sub{
+  background: red;
+  color: white;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+}
 
 
 
