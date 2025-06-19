@@ -194,9 +194,37 @@ span{
 
 
 
+.footer{
+  background: black;
+  width: 1260px;
+  height: 600px;
+  margin-top: 40px;
+  color: white;
+}
+.foot-des{
+  display: flex;
+  justify-content: space-between;
+}
+.p1{
+  width: 375px;
+  height: 80px;
+  margin: 100px;
+}
+.p2{
+  margin: 100px;
+}
 
-
-
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.lower-text{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+}
 
 
 
